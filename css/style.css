@@ -1,13 +1,58 @@
-body>div.container {
-	background-color: red;
-	height: 500px;
+/*headery*/
+
+h1,
+h2 {
+    margin: 0;
 }
-.item{
-	height: 300px;
-	background-color: blue;
+#kontenery {
+    margin-top: 50px;
 }
 
-.item:nth-child(2n){
-	height: 300px;
-	background-color: green;
+#kontenery .container {
+    background-color: grey;
+    margin-bottom: 15px;
+/*    height:  50px;*/
 }
+
+#kontenery .container .col-xs-4{
+    background-color: white;
+}
+
+#kontenery .container .col-xs-4 > div{
+    background-color: aqua;
+}
+
+#kontenery .container-fluid {
+    background-color: green;
+    margin-bottom: 15px;
+    height:  50px;
+}
+/*    przy mobile first*/
+    
+
+    
+#kontenery .kolumna_1 > div {
+       height: 100px;
+    background-color: aqua;
+    }
+    
+    #kontenery .kolumna_2 > div{
+        height: 100px;
+        background-color: green;
+    }
+
+/*karuzela-rozciaganie obrazka*/
+
+
+#carousel-example-generic .carousel-inner .item img {
+/*    góra dół 0, lewy prawy auto*/
+/*    margin: 0 auto;*/
+    margin-left: auto;
+    margin-right:  auto;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
